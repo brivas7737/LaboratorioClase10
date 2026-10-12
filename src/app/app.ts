@@ -1,11 +1,12 @@
-import { Component, signal } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @Component({
-  imports: [],
   selector: 'app-root',
-  styleUrl: './app.scss',
+  imports: [],
   templateUrl: './app.html',
+  styleUrl: './app.scss',
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class App {
-  protected readonly title = signal('LaboratorioAngular');
+  color: string = 'tomato';
 }
