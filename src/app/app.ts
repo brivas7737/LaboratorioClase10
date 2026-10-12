@@ -8,5 +8,5 @@ import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class App {
-  color: string = 'tomato';
+  nombre: string = 'Brian Sebastian Rivas Nava';
 }

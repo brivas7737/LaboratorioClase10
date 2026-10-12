@@ -1,13 +1,19 @@
 <a-scene>
-  <a-sky
-    src="/images/panorama.jpg"
-    rotation="0 -90 0">
-  </a-sky>
+<a-sky src="/images/panorama.jpg" rotation="0 -90 0"></a-sky>
 
   <a-camera position="0 1.6 0">
-    <a-cursor></a-cursor>
+    <a-cursor color="#FFFFFF"></a-cursor>
   </a-camera>
 
+  <a-text
+    value="Brian Sebastian Rivas Nava"
+    position="0 1.6 -3"
+    align="center"
+    color="#FFFFFF"
+    width="6">
+  </a-text>
+
+  <!--
   <a-box
     position="0 1.5 -3"
     width="1"
@@ -16,4 +22,5 @@
     [attr.color]="color"
     (click)="color = color === 'tomato' ? 'blue' : 'tomato'">
   </a-box>
+  -->
 </a-scene>
